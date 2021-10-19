@@ -1,11 +1,17 @@
 {
   "name": "casqueneuronal",
   "version": "1.0.0",
+  "description": "App to communicate with the headset",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "techIsen",
   "license": "ISC",
-  "description": ""
+  "dependencies": {
+    "@neurosity/notion": "^5.6.0",
+    "dotenv": "^10.0.0",
+    "websocket-driver": "^0.7.4"
+  }
 }

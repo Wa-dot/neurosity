@@ -1,0 +1,1 @@
+- Bat file is available in setup folder to download node and npm.

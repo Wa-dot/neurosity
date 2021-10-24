@@ -18,7 +18,7 @@ Get info and act :
 
 ## File:
 
-* In `HandControl`
+* In `Headset _ Control`
   * `setup`  to install node, npm and @neurosity.
   * `.env` contains ID settings
   * `index.js` contains server launch and the main code.

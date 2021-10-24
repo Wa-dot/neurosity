@@ -12,6 +12,10 @@
   "dependencies": {
     "@neurosity/notion": "^5.6.0",
     "dotenv": "^10.0.0",
+    "notion": "^0.0.1",
+    "protobufjs": "^6.11.2",
+    "requirement": "^0.0.8",
+    "socket.io-client": "^4.3.2",
     "websocket-driver": "^0.7.4"
   }
 }

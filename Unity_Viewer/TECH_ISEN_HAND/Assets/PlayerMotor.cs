@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.AI;
 
 public class PlayerMotor : MonoBehaviour
 {
@@ -29,11 +30,14 @@ public class PlayerMotor : MonoBehaviour
     void Update()
     {
         //rb.AddForce(transform.forward * Input.GetAxis("Vertical")*Thrust);
+        
         transform.Translate(0,0, Input.GetAxis("Vertical") * Time.deltaTime * Thrust);
         Rotate(sensibility);
+        
         if (transform.position.y < -1)
         {
             transform.position= new Vector3(0, 1, 0);
+            
             transform.rotation= new Quaternion(0, 0, 0, 0);
         }
         if (Input.GetButtonDown("Jump")){
@@ -41,6 +45,7 @@ public class PlayerMotor : MonoBehaviour
             rb.useGravity = isAttracttoG;
 
         }
+        
     }
 
     void Rotate(float s)
@@ -48,7 +53,8 @@ public class PlayerMotor : MonoBehaviour
         rotX += Input.GetAxis("Mouse X") * s;
         rotY -= Input.GetAxis("Mouse Y") * s;
         rotZ -= Input.GetAxis("Horizontal") * s;
-        transform.localRotation = Quaternion.Euler(rotY, rotX, rotZ);
+        transform.rotation = Quaternion.Euler(rotY, rotX, rotZ);
+        
         
     }
     

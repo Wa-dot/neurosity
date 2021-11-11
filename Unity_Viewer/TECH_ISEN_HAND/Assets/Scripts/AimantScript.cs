@@ -5,9 +5,11 @@ using UnityEngine;
 public class AimantScript : MonoBehaviour
 {
     public GameObject[] aimantsneg;
-    public float tesla = 10;
-    public float maxDistance = 10;
+    public float tesla = 10f;
+    public float maxDistance = 10f;
     private float actualDistance;
+    
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -18,6 +20,7 @@ public class AimantScript : MonoBehaviour
     void Update()
     {
         aimantsneg = GameObject.FindGameObjectsWithTag("Aimantneg");
+        
         foreach(GameObject aimantneg in aimantsneg)
         {
             actualDistance = Vector3.Distance(aimantneg.transform.position, transform.position);

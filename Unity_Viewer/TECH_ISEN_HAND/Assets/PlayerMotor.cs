@@ -14,6 +14,7 @@ public class PlayerMotor : MonoBehaviour
     Rigidbody rb;
     public float Thrust = 20f;
     private bool isAttracttoG = true;
+    public static bool wsG;
     void Awake()
     {
         QualitySettings.vSyncCount = 1;
@@ -24,6 +25,7 @@ public class PlayerMotor : MonoBehaviour
     {
         rb = GetComponent<Rigidbody>();
         rb.useGravity = isAttracttoG;
+        wsG = false;
     }
 
     // Update is called once per frame
@@ -40,9 +42,10 @@ public class PlayerMotor : MonoBehaviour
             
             transform.rotation= new Quaternion(0, 0, 0, 0);
         }
-        if (Input.GetButtonDown("Jump")){
+        if (wsG){
             isAttracttoG = !isAttracttoG;
             rb.useGravity = isAttracttoG;
+            wsG = false;
 
         }
         

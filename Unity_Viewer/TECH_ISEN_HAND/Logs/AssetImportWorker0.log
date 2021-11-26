@@ -1,238 +1,39 @@
 Using pre-set license
-Built from '2020.3/staging' branch; Version is '2020.3.8f1 (507919d4fff5) revision 5273881'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Home; OS build 19042.1348; Version 2009; 64bit' Language: 'fr' Physical Memory: 16326 MB
+Built from '2020.3/staging' branch; Version is '2020.3.21f1 (a38c86f6690f) revision 10718342'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 22000.318; Version 2009; 64bit' Language: 'fr' Physical Memory: 8072 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
- COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity\Hub\Editor\2020.3.8f1\Editor\Unity.exe
+COMMAND LINE ARGUMENTS:
+D:\Programme\unity_install\2020.3.21f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-B:/Documents/github/neurosity/Unity_Viewer/TECH_ISEN_HAND
+D:/Documents/GitHub/neurosity/Unity_Viewer/TECH_ISEN_HAND
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-52580
-Successfully changed project path to: B:/Documents/github/neurosity/Unity_Viewer/TECH_ISEN_HAND
-B:/Documents/github/neurosity/Unity_Viewer/TECH_ISEN_HAND
+57178
+Successfully changed project path to: D:/Documents/GitHub/neurosity/Unity_Viewer/TECH_ISEN_HAND
+D:/Documents/GitHub/neurosity/Unity_Viewer/TECH_ISEN_HAND
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 37.61 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 480.21 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Initialize engine version: 2020.3.8f1 (507919d4fff5)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.8f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path B:/Documents/github/neurosity/Unity_Viewer/TECH_ISEN_HAND/Assets
+Initialize engine version: 2020.3.21f1 (a38c86f6690f)
+[Subsystems] Discovering subsystems at path D:/Programme/unity_install/2020.3.21f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Documents/GitHub/neurosity/Unity_Viewer/TECH_ISEN_HAND/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce GTX 1050 Ti (ID=0x1c82)
+    Renderer: NVIDIA GeForce GTX 1050 (ID=0x1c91)
     Vendor:   
-    VRAM:     4018 MB
-    Driver:   30.0.14.9649
+    VRAM:     2996 MB
+    Driver:   30.0.14.9676
 Initialize mono
-Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.8f1/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.8f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
-Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.8f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56424
+Mono path[0] = 'D:/Programme/unity_install/2020.3.21f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Programme/unity_install/2020.3.21f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'D:/Programme/unity_install/2020.3.21f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56004
 Begin MonoManager ReloadAssembly
-Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.8f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002316 seconds.
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 36.06 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.065 seconds
-Platform modules already initialized, skipping
-Registering precompiled user dll's ...
-Registered in 0.001912 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 35.84 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-DisplayProgressbar: Restoring NuGet Packages
-Mono: successfully reloaded assembly
-- Completed reload, in  1.230 seconds
-Platform modules already initialized, skipping
-========================================================================
-Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.37 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1920 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 101.6 MB.
-System memory in use after: 101.6 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2389.
-Total: 1.851700 ms (FindLiveObjects: 0.188900 ms CreateObjectMapping: 0.075100 ms MarkObjects: 1.503500 ms  DeleteObjects: 0.082600 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/Scenes/Test_1/LightingData.asset
-  artifactKey: Guid(49d95e4e1ab98f642bf4dfa00a9fe207) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Test_1/LightingData.asset using Guid(49d95e4e1ab98f642bf4dfa00a9fe207) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fef093afa0878346d6fab83459862c60') in 0.043358 seconds
-  Import took 0.046046 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000160 seconds.
-  path: Assets/Scenes/Test_1
-  artifactKey: Guid(1f279500232169f49b917c5c4a2f812b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Test_1 using Guid(1f279500232169f49b917c5c4a2f812b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e85f096daa00bf4dbb8acd37ea95e7e4') in 0.005624 seconds
-  Import took 0.008172 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000234 seconds.
-  path: Assets/Scenes/Test_1/NavMesh.asset
-  artifactKey: Guid(b7b1c134072459f44a9bcdad0580099a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Test_1/NavMesh.asset using Guid(b7b1c134072459f44a9bcdad0580099a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2029e88f73234a68bd430f1a3d440763') in 0.005869 seconds
-  Import took 0.009918 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000187 seconds.
-  path: Assets/Scenes/main
-  artifactKey: Guid(b8d1726f3f403a642863ad3a8c2a7d89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/main using Guid(b8d1726f3f403a642863ad3a8c2a7d89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e87f8bde3f62b582cf424fa5940d0cec') in 0.014855 seconds
-  Import took 0.017494 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000286 seconds.
-  path: Assets/Scenes/main/NavMesh.asset
-  artifactKey: Guid(2faf7cce796d6134087961ef721b041e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/main/NavMesh.asset using Guid(2faf7cce796d6134087961ef721b041e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f32228faa00d4ab16fa49e56d5a06b6') in 0.001927 seconds
-  Import took 0.004569 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.775314 seconds.
-  path: Assets/New Animation.anim
-  artifactKey: Guid(611028c6e323355499efd569c0ab8393) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New Animation.anim using Guid(611028c6e323355499efd569c0ab8393) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd40d7377691b7f8b0343a6cb033cd55d') in 0.007819 seconds
-  Import took 0.010502 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000638 seconds.
-  path: Assets/New Animation.anim
-  artifactKey: Guid(611028c6e323355499efd569c0ab8393) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New Animation.anim using Guid(611028c6e323355499efd569c0ab8393) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd40d7377691b7f8b0343a6cb033cd55d') in 0.002093 seconds
-  Import took 0.004660 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 32.841313 seconds.
-  path: Assets/Scenes/hand.anim
-  artifactKey: Guid(217c9d1443ac67f468f86d312104a798) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/hand.anim using Guid(217c9d1443ac67f468f86d312104a798) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d0732211fb8764a1a36d5ab5560e8fa') in 0.005952 seconds
-  Import took 0.009347 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.003306 seconds.
-  path: Assets/Scenes/hand.anim
-  artifactKey: Guid(217c9d1443ac67f468f86d312104a798) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/hand.anim using Guid(217c9d1443ac67f468f86d312104a798) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d0732211fb8764a1a36d5ab5560e8fa') in 0.014430 seconds
-  Import took 0.017441 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.547225 seconds.
-  path: Assets/Scenes/hand.controller
-  artifactKey: Guid(4422d2d3aae58df40af7b486d730b689) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/hand.controller using Guid(4422d2d3aae58df40af7b486d730b689) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'beae7bf0221a122eb91498152324e8f3') in 0.005462 seconds
-  Import took 0.008389 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 81.611777 seconds.
-  path: Assets/Assets/hand.controller
-  artifactKey: Guid(4422d2d3aae58df40af7b486d730b689) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/hand.controller using Guid(4422d2d3aae58df40af7b486d730b689) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b900d168e69beb8cc85a1f9446b2b13') in 0.002584 seconds
-  Import took 0.005760 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 36.001514 seconds.
-  path: Assets/hand.mask
-  artifactKey: Guid(e23c36157c57b394db47845442e1aa4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/hand.mask using Guid(e23c36157c57b394db47845442e1aa4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85822dcd640b1b7f80003ea0aafdfc8a') in 0.003877 seconds
-  Import took 0.006705 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001257 seconds.
-  path: Assets/hand.mask
-  artifactKey: Guid(e23c36157c57b394db47845442e1aa4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/hand.mask using Guid(e23c36157c57b394db47845442e1aa4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85822dcd640b1b7f80003ea0aafdfc8a') in 0.001907 seconds
-  Import took 0.004493 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 906.003199 seconds.
-  path: Assets/Assets/textures/HAND_C - Copie.jpg
-  artifactKey: Guid(c68f3493b0d7698429b7431b632bbc33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/textures/HAND_C - Copie.jpg using Guid(c68f3493b0d7698429b7431b632bbc33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58eece324d9092b51caa0e180cadf935') in 0.098375 seconds
-  Import took 0.104295 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 180.000274 seconds.
-  path: Assets/Assets/textures/HAND_C - Copie.jpg
-  artifactKey: Guid(c68f3493b0d7698429b7431b632bbc33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/textures/HAND_C - Copie.jpg using Guid(c68f3493b0d7698429b7431b632bbc33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ff40387458ba3794be5c0ad15b197f9') in 0.011466 seconds
-  Import took 0.016339 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.011585 seconds.
-  path: Assets/Assets/textures/HAND_C - Copie.jpg
-  artifactKey: Guid(c68f3493b0d7698429b7431b632bbc33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/textures/HAND_C - Copie.jpg using Guid(c68f3493b0d7698429b7431b632bbc33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ff40387458ba3794be5c0ad15b197f9') in 0.009801 seconds
-  Import took 0.013209 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 625.738617 seconds.
-  path: Assets/Assets/Material.004.mat
-  artifactKey: Guid(83de39fa1f0fd6d48a8247e9daf9ed08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Material.004.mat using Guid(83de39fa1f0fd6d48a8247e9daf9ed08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc9b8b049367dffe678cac87f5753e78') in 0.095479 seconds
-  Import took 0.116317 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 130.840373 seconds.
-  path: Assets/Assets/textures/HAND_C - Copie.jpg
-  artifactKey: Guid(c68f3493b0d7698429b7431b632bbc33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/textures/HAND_C - Copie.jpg using Guid(c68f3493b0d7698429b7431b632bbc33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8eac11eb5e925ad9435e6d1dba7a85cf') in 0.010412 seconds
-  Import took 0.013977 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000250 seconds.
-  path: Assets/Assets/textures/HAND_N  - Copie.jpg
-  artifactKey: Guid(518a6ec86baaa1643b4e39aac3a8a93d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/textures/HAND_N  - Copie.jpg using Guid(518a6ec86baaa1643b4e39aac3a8a93d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a83867f623ede2970cd4fa4060b3bc0') in 0.014154 seconds
-  Import took 0.017050 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000214 seconds.
-  path: Assets/Assets/textures/HAND_S - Copie.jpg
-  artifactKey: Guid(a992286974bbe0c43ab5ea3a9ef8bcb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/textures/HAND_S - Copie.jpg using Guid(a992286974bbe0c43ab5ea3a9ef8bcb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30816c8d819c3ce0270ac696bdd33422') in 0.012819 seconds
-  Import took 0.015849 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000182 seconds.
-  path: Assets/Assets/textures/HAND_N .jpg
-  artifactKey: Guid(32f489d176047854d9fa1eb4029ebf2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/textures/HAND_N .jpg using Guid(32f489d176047854d9fa1eb4029ebf2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc81cf6ac05641213563158b03aa78fa') in 0.018959 seconds
-  Import took 0.022586 seconds .
-
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file

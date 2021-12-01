@@ -41,14 +41,14 @@ public class client : MonoBehaviour
             ws.Send("ChangeState");
             anim.SetBool("isOpen", isOpen);
             answer = message + answer;
-           // StartCoroutine(Wait());
+            StartCoroutine(Wait());
         }
         
         if (Input.GetKeyDown(KeyCode.B))
         {
             ws.Send("bye");
             answer = message + answer;
-            //StartCoroutine(Wait());
+            StartCoroutine(Wait());
         }
         
         

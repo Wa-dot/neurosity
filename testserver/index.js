@@ -5,9 +5,9 @@ const wss = new WebSocket.Server({ port: 8080 },()=>{
 wss.on('connection', function connection(ws) {
    ws.on('message', (data) => {
       console.log('data received')
-      if(data=="NG"){
-         console.log("Asking for changing gravity  \n")
-            ws.send("NG_accepted");
+      if(data=="ChangeState"){
+         console.log("Asking for changing state  \n")
+            ws.send("accepted");
             
       }
       if(data=="bye"){

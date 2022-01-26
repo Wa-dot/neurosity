@@ -1,4 +1,4 @@
-const { App } = require("@manekinekko/cafy");
+//const { App } = require("@manekinekko/cafy");
 
 const { connect, wait } = require("./utils");
 
@@ -7,7 +7,7 @@ spinner.info("Navigate to https://console.neurosity.co/ to access training data.
 
 (async () => {
   const mind = await connect();
-  cafy = new App();
+  //cafy = new App();
 
   let confirmationThresholdMax = 50;
   let confirmationThreshold = confirmationThresholdMax;
@@ -23,15 +23,15 @@ spinner.info("Navigate to https://console.neurosity.co/ to access training data.
 
       if (confirmationThreshold <= 0) {
         spinner.text = `Your Espresso shot is on its way...`;
-        await cafy.sendCommand("Espresso", ["0d1183f001010100140201080000000653d7"]);
-        await wait(43); // 43s = brewing + serving the coffee
+        //await cafy.sendCommand("Espresso", ["0d1183f001010100140201080000000653d7"]);
+        //await wait(43); // 43s = brewing + serving the coffee
         
         const { deviceNickname } = await mind.getSelectedDevice();
         await mind.disconnect();
         spinner.succeed(`Disconnected from Notion headset: ${deviceNickname}`);
         spinner.info(`Exiting...`);
 
-        await cafy.disconnect(); // will call process.exit()
+        //await cafy.disconnect(); // will call process.exit()
       }
     }
 

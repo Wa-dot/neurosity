@@ -1,9 +1,10 @@
 require("dotenv").config();
-const credentials = {
-  email: process.env.NEUROSITY_EMAIL || "",
-  password: process.env.NEUROSITY_PASSWORD || "",
-};
 const { Notion } = require("@neurosity/notion");
+const credentials = {
+  email: process.env.NEUROSITY_EMAIL || "techisenlille@gmail.com",
+  password: process.env.NEUROSITY_PASSWORD || "neurosity",
+};
+
 
 const spinner = require("ora")().start();
 
@@ -11,7 +12,9 @@ const checkCredentials = () => {
   const isMissing = (env) => {
     return env === "" || env === 0;
   };
+  spinner.info("hello");
   if (isMissing(credentials.email) || isMissing(credentials.password)) {
+    spinner.info("problem");
     spinner.stop("Please verify email and password are in .env file, quitting...");
     process.exit(0);
   }
@@ -19,6 +22,7 @@ const checkCredentials = () => {
 
 const connect = async () => {
   checkCredentials();
+  spinner.info("testconnect")
   spinner.start(`${credentials.email} attempting to authenticate`);
 
   const notion = new Notion();

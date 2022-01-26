@@ -28,9 +28,9 @@
   "homepage": "https://github.com/manekinekko/cafy-notion#readme",
   "dependencies": {
     "@manekinekko/cafy": "git+https://github.com/manekinekko/cafy.git#1.0.1-alpha.0",
-    "@neurosity/notion": "^5.1.1",
-    "dotenv": "^8.2.0",
-    "ora": "^5.1.0"
+    "@neurosity/notion": "^5.7.0",
+    "dotenv": "^8.6.0",
+    "ora": "^5.4.1"
   },
   "devDependencies": {}
 }
